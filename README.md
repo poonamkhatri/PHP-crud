@@ -1,2 +1,2 @@
 # PHP-crud
-php crud using mysql
+php basic crud using mysql
