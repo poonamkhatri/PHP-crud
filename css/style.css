@@ -1,0 +1,153 @@
+html {
+        height: 100%;
+    }
+
+body {
+    background-image: linear-gradient(#c6ebfb ,rgb( 128, 211, 248 ),rgb(  5, 100, 143 ));
+}
+
+.container {
+    padding: 2rem 0rem;
+    border-radius: 15px;
+}
+
+h4 {
+    margin: 2rem 0rem 1rem;
+}
+
+table {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-collapse: collapse;
+    border-radius: 15px;
+    /* add this */
+    overflow:hidden
+}
+
+table thead {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+    height: 50px;
+}
+
+table td {
+    background-color:#eaecee;
+}
+
+.table-image {
+    td, th {
+        vertical-align: middle;
+    }
+}
+
+.btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+
+.login {
+    background-image: linear-gradient(#c6ebfb ,rgb( 128, 211, 248 ),rgb(  5, 100, 143 ));
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.account-login {
+    width: 500px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+p a {
+    padding-left: 2px;
+}
+
+.account-login h1 {
+    font-size: 25px;
+    text-align: left;
+    color: #454646;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #328db5;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: none;
+    height: 63px;
+    border-radius: 0px;
+}
+
+.login-form {
+    background: #fff;
+    float: left;
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+button.btnsave {
+    width: 100%;
+    background-image: linear-gradient(to right, #b0e3fa 0%, #71c5eb 51%, #328db5 100%);
+    font-size: 20px;
+    padding: 11px;
+    color:  #454646;
+    border: 0px;
+    margin: 10px 0px 20px;
+}
+
+.btnsave:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 767px){
+    .account-login {
+        width: 90%;
+    }
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
