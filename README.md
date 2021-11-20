@@ -1,4 +1,4 @@
-# PHP basic crud using myql
+# PHP basic crud (create read update delete) using myql
 PHP insert data
 PHP display data
 PHP create record
